@@ -36,4 +36,3 @@ We can also use a ternary expression. This takes a boolean value and switches wh
 ```
 
 `No emails!` will be displayed if `someArray.length === 0`. If it isn't equal to zero, `Lots of emails` will be displayed!
->>>>>>> draft
