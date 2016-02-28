@@ -2,7 +2,7 @@
 
 ## Overview
 
-Let's take a look at expressions. We've used expressions in our labs without even noticing it!
+We've used expressions before in our labs without even noticing it! Expressions are what we put inside the curly braces (`{{}}`) inside the DOM - but they can be a lot more powerful than what we have done already.
 
 ## Objectives
 
@@ -15,7 +15,7 @@ Let's take a look at expressions. We've used expressions in our labs without eve
 
 Anything in between the `{{}}` braces we've been using in our templates is an "expression". We've only been doing *simple* expressions up to this point, just referencing a variable.
 
-However, expressions can be a lot more powerful. We can add, look up indexes/properties in arrays/objects or even use ternary operators.
+However, expressions can be a lot more powerful. We can add, look up indexes/properties in arrays/objects or even use ternary operators (or do most of what we can do in JavaScript, such as `{{ 1 + 1 }}` outputting 2).
 
 ### How long?
 
