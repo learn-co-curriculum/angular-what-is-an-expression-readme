@@ -32,7 +32,9 @@ It's as simple as that!
 We can also use a ternary expression. This takes a boolean value and switches what it displays depending if the boolean is true or false.
 
 ```html
-{{ someArray.length === 0 && 'No emails!' || 'Lots of emails' }}
+{{ someArray.length === 0 ? 'No emails!' : 'Lots of emails' }}
 ```
 
 `No emails!` will be displayed if `someArray.length === 0`. If it isn't equal to zero, `Lots of emails` will be displayed!
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/angular-what-is-an-expression-readme'>Angular What Is An Expression</a> on Learn.co and start learning to code for free.</p>
